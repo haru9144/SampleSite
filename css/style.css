@@ -1,9 +1,88 @@
 @charset "UTF-8";
-@import url(print.css) print;
 
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
+ .site-title-sub::before,
+ .site-title-sub::after {
+   display:block!important;
+   width: 80%!important;
+   margin: 10px auto!important;
+ }
 
+ .site-title-sub {
+   font-size: 1.7rem!important;
+ }
+
+ .site-title {
+   margin-top: 35px!important;
+   font-size: 5rem!important;
+ }
+
+ .header {
+   padding-top: 60px!important;
+ }
+
+ .button:hover {
+   opacity: 1!important;
+ }
+
+ .heading {
+   font-size: 2.5rem!important;
+ }
+
+ body {
+   font-size: 1.3rem!important;
+ }
+
+ .about-text {
+   line-height: 1.8!important;
+ }
+
+ .works-wrapper,
+ .work-box {
+   display: block!important;
+ }
+
+ .work-image {
+   display: none!important;
+ }
+
+ .work-description{
+   position: relative!important;
+ }
+
+ .work-box::after {
+   top: 0!important;
+   height: 100%!important;
+   background-size: cover!important;
+   transform: none!important;
+ }
+
+ .skills-wrapper,
+ .skill-box {
+   display: block!important;
+ }
+
+ .skill-icon {
+   width: 100px!important;
+   height: 100px!important;
+   font-size: 5rem!important;
+   line-height: 92px!important;
+ }
+
+ .skill-box {
+   margin: 40px auto!important;
+ }
+
+ .skill-text {
+   margin: 0!important;
+ }
+
+ .contact-form {
+   width: 80%!important;
+ }
 }
+
+/* MEDIA END */
 
 html {
   font-size: 62.5%;
